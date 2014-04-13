@@ -1,0 +1,218 @@
+@keyframes logoanimation
+{
+0%   {transform: rotate(0deg) scaleX(1) scaleY(1);left:20%;top:0px;}
+50%   {transform: rotate(180deg) scaleX(1) scaleY(1);left:40%;top:0px;}
+100% {transform:  rotate(360deg) scaleX(1) scaleY(1) ;left:80%;top:0px;}
+}
+
+@-webkit-keyframes logoanimation
+{
+0%   {-webkit-transform:  rotate(0deg) scaleX(1) scaleY(1);left:20%;top:0px;}
+50%   {transform: rotate(180deg) scaleX(1) scaleY(1);left:40%;top:0px;}
+100% {-webkit-transform:  rotate(360deg) scaleX(1) scaleY(1) ;left:80%;top:0px;}
+}
+
+.upcEpis{
+	
+	width: 0%;
+	height: 0%;
+	-webkit-transition: height 10s ease-in-out,width 3s linear;
+    -o-transition: height 10s ease-in-out,width 3s linear;
+    -moz-transition: height 10s ease-in-out,width 3s linear;
+    transition: height 10s ease-in-out,width 3s linear;
+
+}
+
+.intShows{
+	width: 0%;
+	height: 0%;
+	-webkit-transition: height 10s ease-in-out,width 3s linear;
+    -o-transition: height 10s ease-in-out,width 3s linear;
+    -moz-transition: height 10s ease-in-out,width 3s linear;
+    transition: height 10s ease-in-out,width 3s linear;
+
+}
+
+
+.upcomingEpisodes{
+
+	width:77%;
+	height: 100%;
+	float:left;
+	background-color: #d6d6d6;
+	width:77%;
+	height: 100%;
+	margin-top: 15px;
+	text-align: justify;
+	padding-right: 0.5%;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 1.5%;
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	border: 5px solid #383d42;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	
+
+}
+
+
+.interestingShows{
+
+	float:right;
+	width: 17%; 
+	height: 100%;
+	margin-top: 15px;
+	text-align: justify;
+	padding-top: 60px;
+	padding-right: 1.5%;
+	padding-left: 0.5%;
+	border: 5px solid #383d42;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+
+}
+
+#loadData{
+
+	background-color: #383d42;
+	color:#d7d7d7;
+	margin-left:39%;
+	background-size: 70px;
+	font-size: 30px;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	margin-top: 20px;
+
+
+}
+
+#season{
+
+	background-color: #383d42;
+	color:#d7d7d7;
+	background-size: 70px;
+	font-size: 30px;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	margin-top: 0px;
+
+}
+
+#readMore{
+
+	background-color: #d6d6d6;
+	font-size: 20px;
+	color:#383d42;
+	margin-left: 25%;
+
+}
+
+#logo{
+	
+	animation: logoanimation 6s linear infinite alternate;
+     -moz-animation: logoanimation  6s linear infinite  alternate;
+    -webkit-animation: logoanimation  6s linear infinite  alternate;
+    -o-animation: logoanimation  6s linear infinite  alternate; 
+    
+}
+
+#logo{
+
+	width: 100px;
+	height:100px;
+	position: relative;
+}
+
+#title{
+	background-color: #24272c;
+	height: 215px;
+
+}
+
+#subtitle{
+
+	background-color: #383d42;
+	height: 80px;
+
+}
+
+h1{
+	font-size: 45px;
+	font-family: 'Michroma', sans-serif;
+	font-style: bold;
+	color:#ffffff;
+	text-align: center;
+}
+
+#upcomingEpisodes div{
+	background-color: #f0f0f0;
+	width: 340px;
+	height: 145px;
+	padding-bottom:20px;
+	text-align: center;
+	padding-top: 20px; 
+	border: 3px solid #4da6ff;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	color: black; background-color: #efefef; text-shadow: none;
+
+	-moz-transition: 
+		background-color 700ms linear,
+			   color 700ms linear;
+	-webkit-transition: 
+		background-color 700ms linear,
+			   color 700ms linear;
+	-o-transition: 
+		background-color 1000ms linear,
+			   color 700ms linear;
+	transition: 
+		background-color 1000ms linear,
+			   color 700ms linear;
+}
+
+#upcomingEpisodes div:hover{
+	color: white; background-color: #383d42; text-shadow: none;
+
+}
+
+#upcomingEpisodes h2{
+
+	font-family: 'Concert One', cursive;
+	font-size: 16px;
+}
+
+#upcomingEpisodes p{
+	
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+#interestingShows h2{
+
+	color:#FF0000;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 20px;
+
+}
+
+#interestingShows h3{
+	color:#383d42;
+	font-family: 'Concert One', cursive;
+	font-size: 16px;
+
+}
+
+#interestingShows h4{
+	color:#4da6ff;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic; 
+	font-size: 16px;
+}
+
+#interestingShows p{
+
+	color:#383d42;
+	font-family: 'Roboto', sans-serif;
+}
